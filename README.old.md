@@ -1,2 +1,0 @@
-# GifExpertApp
-React APP
