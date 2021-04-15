@@ -14,9 +14,9 @@ import React, { useState } from "react";
 import { AddCategory } from "./components/AddCategory";
 import { GifGrid } from "./components/GifGrid";
 
-export const GifExpertApp = () => {
+export const GifExpertApp = ({defaultCategories = []}) => {
   // Hook useState
-  const [categories, setCategories] = useState(["Samurai X"]);
+  const [categories, setCategories] = useState(defaultCategories);
 
   return (
     <>
